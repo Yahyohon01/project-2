@@ -1,0 +1,110 @@
+span{
+    color: firebrick;
+}
+
+.header--content--title{
+    font-size: 50px;
+}
+
+.header--content--subtitle{
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+
+.img{
+    width: 75%;
+}
+
+/* Second content */
+
+.second_content{
+    background: pink;
+}
+
+.second__content--title{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 90px;
+    /* padding-bottom: 90px; */
+}
+
+.card{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    background: none;
+    border: none;
+    transform: translate(50px, 100px);
+}
+
+.card1{
+    border: 1px solid black;
+    margin: 1rem;
+    background: rgb(219, 139, 153);
+    border-radius: 10px;
+    padding: 2.5rem;
+    text-align: center;
+}
+
+.card2{
+    border: 1px solid black;
+    margin: 1rem;
+    background: rgb(219, 139, 153);
+    border-radius: 10px;
+    padding: 2.5rem;
+    text-align: center;
+}
+
+.card3{
+    border: 1px solid black;
+    margin: 1rem;
+    background: rgb(219, 139, 153);
+    border-radius: 10px;
+    padding: 2.5rem;
+    text-align: center;
+}
+
+/* third section */
+
+.third__section--content{
+    padding-top: 240px;
+    padding-bottom: 240px;
+}
+
+.third__content--inp{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 2rem;
+    align-items: center;
+}
+
+.input-btn{
+    padding: 8px 16px;
+    border: 2px solid black;
+    font-size: 1rem;
+    width: 400px;
+}
+
+.btn-input{
+    padding: 8px 16px;
+    border: 2px solid black;
+    border-radius: 5px;
+    font-size: 1rem;
+    background: #ab7a5f;
+}
+
+/* footer */
+
+footer{
+    background: black;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+}
+
+
+
+
+
